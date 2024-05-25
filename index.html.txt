@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #FFFFFF;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #1E1E1E;
+        }
+        header h1 {
+            margin: 0;
+            color: #FF6347;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #FF6347;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1E1E1E;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to My Personal Webpage</h1>
+        </header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm a software engineering student from Mohammedia, Morocco. I'm passionate about technology, programming, and space. Currently, I'm studying at CPGE for TSI studies and aiming to complete my education in an engineering school for a software engineering degree.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here, you can showcase your projects. List your projects with descriptions and links if applicable.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me through the following social media platforms:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/yourprofile" target="_blank">GitHub</a></li>
+                <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+            </ul>
+        </section>
+        <footer>
+            <p>&copy; 2024 My Personal Webpage</p>
+        </footer>
+    </div>
+</body>
+</html>
